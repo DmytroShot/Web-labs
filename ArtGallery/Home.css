@@ -1,0 +1,378 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    margin-bottom: 200px;
+    max-width: 1475px;
+    .black-box{
+        background: #151515;
+        background-size: cover;
+        width: 550px;
+        height: 850px;
+    }
+    .header-img-box{
+        
+        width: 640px;
+        height: 850px;
+        background:url(images/Rectangle.jpg) center;
+        background-size: cover;
+
+    }
+    h1{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 76px;
+        line-height: 88px;
+        color: #FFFFFF;
+        
+        position: absolute;
+        left: 220px;
+        top: 120px;
+    }
+    p{
+        width: 350px;
+        height: 160px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #444444;
+
+        position: absolute;
+        left: 1100px;
+        top: 190px;
+    }
+    button:hover{
+        .left-button-box{
+            background: #D5966C;
+        }
+        .right-button-box{
+            background: #151515;
+        }
+    }
+    button{
+        background:none;
+        border: none;
+        position: absolute;
+        display: flex;
+        width: 300px;
+        height: 72px;
+        padding: 0;
+        margin: 0;
+
+        left: 1100px;
+        top: 450px;
+        .left-button-box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-family: 'Big Shoulders Display';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 24px;
+
+            width: 230px;
+            height: 72px;
+            color: #FFFFFF;
+            background: #151515;
+        }
+        .right-button-box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            font-size: xx-large;
+            color: #FFFFFF;
+            background: #D5966C;
+
+            width: 70px;
+            height: 72px;
+        }
+    }
+}
+main{
+    article{
+        display: flex;
+        justify-content: center;
+        
+        .article-img-box{
+            background: url(images/Rectangle\ \(1\).jpg) center;
+            background-size: cover;
+            width: 635px;
+            height: 400px;
+            margin-bottom: 30px;
+        }
+        .article-txt-box{
+            max-width: 350px;
+            h1{
+                max-width: 350px;
+                font-family: 'Big Shoulders Display';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 60px;
+                line-height: 60px;
+                color: #151515;
+            }
+            p{
+                max-width: 350px;
+                font-family: 'Outfit';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 22px;
+                line-height: 32px;
+                color: #444444;
+            }
+        }
+        .article-box-1{
+            width: 1110px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .article-box-2{
+            width: 1110px;
+            display: flex;
+            justify-content: space-between;
+            .article-img-box{
+                background: url(images/Rectangle\ Copy\ 2.jpg) center;
+                background-size: cover;
+                width: 635px;
+                height: 720px;
+            }
+            .article-img-box-2{
+                background: url(images/Rectangle\ Copy\ 4.jpg) center;
+                background-size: cover;
+                width: 445px;
+                height: 313px;
+                margin-bottom: 30px;
+            }
+            .article-black-box{
+                background: #151515;
+                width: 445px;
+                height: 377px;
+                display: flex;
+                justify-content: center;
+                color: #FFFFFF;
+                h1{
+                    font-family: 'Big Shoulders Display';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 60px;
+                    line-height: 60px;
+                }
+                p{
+                    font-family: 'Outfit';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 32px;
+                }
+                .article-txt-box-2{
+                    width: 350px;
+                    height: 248px;
+                }
+            }
+
+        }
+    }
+}
+footer{
+    margin-top: 200px;
+    max-width: 100%;
+    .footer-black-box{
+        background: #151515;
+        height: 244px;
+        display: flex;
+        align-items: center;
+        .footer-txt-box{
+            color: #FFFFFF;
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            p{
+                width: 430px;
+                font-family: 'Outfit';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 28px;
+            }
+            .logos-box{
+                display: flex;
+                gap: 8px;
+            }
+            .logo:hover{
+                color: #D5966C;
+            }
+        }
+    }
+}
+
+@media(max-width:1445px){
+    header{
+        .black-box{
+            width: 450px;
+        }
+        .header-img-box{
+            width: 540px;
+        }
+        h1{
+            left: 120px;
+        }
+        p{
+            left: 910px;
+        }
+        button{
+            left: 910px;
+        }
+    }
+}
+
+@media(max-width:1260px){
+    header{
+        .black-box{
+            width: 350px;
+        }
+        .header-img-box{
+            width: 550px;
+        }
+        h1{
+            left: 120px;
+        }
+        p{
+            left: 810px;
+        }
+        button{
+            left: 810px;
+        }
+    }
+}
+
+@media(max-width:1160px){
+    header{
+        .black-box{
+            width: 0px;
+        }
+        .header-img-box{
+            width: 450px;
+        }
+        h1{
+            color: #151515;
+            left: 400px;
+            font-size: 50px;
+            line-height: 80px;
+        }
+        p{
+            top: 390px;
+            left: 400px;
+        }
+        button{
+            top: 650px;
+            left: 400px;
+        }
+    }
+
+    main{
+        .article-box-1{
+            justify-content: space-evenly !important;
+            .article-img-box{
+                width: 390px;
+            }
+        }
+        .article-box-2{
+            justify-content: space-evenly !important;
+            .article-img-box{
+                width: 500px !important;
+            }
+            .article-img-box-2{
+                width: 240px !important;
+            }
+            .article-black-box{
+                width: 240px !important;
+                .article-txt-box-2{
+                    width: 200px !important;
+                }
+                h1{
+                    font-size: 40px !important;
+                    line-height: 40px !important;
+                }
+                
+            }
+        }
+    }
+}
+
+@media(max-width:760px){
+    header{
+        display: flex;
+        flex-direction: column;
+        
+        
+        .black-box{
+            display: none !important;
+        }
+        .header-img-box{
+            width: 375px !important;
+            height: 240px !important;
+        }
+        h1{
+            position: static;
+            padding-left: 10px;
+        }
+        p{
+            position: static;
+            padding-left: 10px;
+        }
+        button{
+            position: static;
+            padding-left: 10px;
+        }
+    }
+    main{
+        article{
+            
+            .article-box-1{
+                flex-direction: column-reverse;
+                align-items: center;
+                .article-img-box{
+                    width: 360px !important;
+                }
+            }
+            .article-box-2{
+                flex-direction: column;
+                align-items: center;
+                .article-img-box{
+                    width: 360px !important;
+                }
+                .article-img-box-2{
+                    width: 360px !important;
+                }
+                .article-black-box{
+                    width: 360px !important;
+                    align-items: center;
+                    .article-txt-box-2{
+                        width: 300px !important;
+                        
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .footer-txt-box{
+            display: block !important;
+            padding-left: 10px;
+            p{
+                width: 350px !important;
+            }
+        }
+    }
+}
+
+
