@@ -129,12 +129,12 @@ hr{
             max-width: 100%;
         }
         h1{
-            max-width:360px;
+            max-width:310px;
             color: #484747;
             -webkit-text-fill-color: unset !important;
         }
         p{
-            max-width: 360px;
+            max-width: 310px;
         }
     }
 }
