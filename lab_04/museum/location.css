@@ -36,7 +36,7 @@ main{
                 color: #D5966C;
             }
             p{
-                width: 540px;
+                max-width: 540px;
                 font-family: 'Outfit';
                 font-style: normal;
                 font-weight: 300;
@@ -130,7 +130,7 @@ footer{
     main{
         .left-txt-box{
             h1{
-                font-size: 60px !important;
+                font-size: 50px !important;
                 line-height: 60px !important;
             }
         }
@@ -171,7 +171,8 @@ footer{
             display: block !important;
             padding-left: 10px;
             p{
-                width: 350px !important;
+                font-size: 16px !important;
+                max-width: 310px !important;
             }
         }
     }
