@@ -328,6 +328,7 @@ footer{
             padding-left: 10px;
         }
         p{
+            max-width: 310px;
             position: static;
             padding-left: 10px;
         }
