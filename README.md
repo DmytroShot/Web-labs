@@ -1,6 +1,6 @@
-https://dmytroshot.github.io/Web-labs/lab_01/cars/
-https://dmytroshot.github.io/Web-labs/lab_01/food/
-https://dmytroshot.github.io/Web-labs/lab_01/kitchen/
+https://dmytroshot.github.io/Web-labs/lab_01/cars/ 
+https://dmytroshot.github.io/Web-labs/lab_01/food/ 
+https://dmytroshot.github.io/Web-labs/lab_01/kitchen/ 
 
 https://dmytroshot.github.io/Web-labs/lab_02/apples/
 
