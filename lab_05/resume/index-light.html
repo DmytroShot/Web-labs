@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-light.css">
+</head>
+<body>
+    
+    <nav>
+
+        <div class="burger">☰</div>
+        <div class="cross-burger">╳</div>
+
+        <script>
+            document.querySelector('.burger',).addEventListener('click', function(){
+                this.classList.toggle('burger-active');
+                document.querySelector('.cross-burger').classList.toggle('cross-burger-active');
+                document.querySelector('.ul').classList.toggle('open');
+            })
+            document.querySelector('.cross-burger',).addEventListener('click', function(){
+                this.classList.toggle('cross-burger-active');
+                document.querySelector('.burger').classList.toggle('burger-active');
+                document.querySelector('.ul').classList.toggle('open');
+            })
+        </script>
+
+
+        <div class="orange-rectangle-box"></div>
+        <div class="grey-rectangle-box"></div>
+        <div class="nav-box">
+            <img src="images/photo_5449479150143400102_y.jpg" alt="">
+            <h1>Dmytro Shot</h1>
+            <ul class="ul">
+                <li><a href="#article-1">Home</a></li>
+                <li><a href="#article-2">About</a></li>
+                <li><a href="#article-3">Education</a></li>
+                <li><a href="#article-4">Skills</a></li>
+                <li><a href="#article-5">Experience</a></li>
+                <li><a href="#article-6">Testimonials</a></li>
+                <li><a href="#article-7">Contact</a></li>
+            </ul> 
+        </div>
+        
+    </nav>
+
+    <main>
+
+        <article class="article-1" id="article-1">
+
+            <div class="left-side-box">
+                
+                <h1>Hello, i am <br><span>Dmytro Shot</span></h1>
+                <h2>IT specialist</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias esse ullam culpa sit, fugiat consectetur Assumenda!</p>
+                <div class="buttons-wrapper">
+                    <div class="button-box"><a href="">Download</a></div>
+                    
+                    <div class="button-box"><a href="">Contact</a></div>
+                </div>
+            </div>
+            <div class="right-side-box">
+                <img src="images/myDance.png" alt="">
+            </div>
+
+        </article>
+
+
+        <article class="article-2"  id="article-2">
+
+            <div class="second-left-side-box">
+                <div class="grey-oval"></div>
+                
+                <div class="flex-center">
+                    <div class="orange-helmet"></div>
+                    <h1>About <strong>me</strong>...</h1>
+                </div>
+                
+                <div class="content-box">
+                    <h2><strong>Who</strong> am I?</h2>
+                    <div class="yellow-oval"></div>
+                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                </div>
+
+                <div class="content-box">
+                    <h2>And my <strong>goals</strong></h2>
+                    <div class="yellow-oval"></div>
+                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                    <ul>
+                        <li>
+                            <strong>✓</strong>
+                            Primary target
+                        </li>
+                        <li>
+                            <strong>✓</strong>
+                            Secondary target
+                        </li>
+                        <li>
+                            <strong>✓</strong>
+                            Optional target
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="second-right-side-box">
+                <ul>
+                    <li>
+                        <h2>FULL NAME</h2>
+                        <p>Dmytro Shot</p>
+                    </li>
+                    <li>
+                        <h2>DATE OF BIRTH</h2>
+                        <p>November 18, 2006</p>
+                    </li>
+                    <li>
+                        <h2>EMAIL</h2>
+                        <p>1mymail1@gmail.com</p>
+                    </li>
+                    <li>
+                        <h2>Phone</h2>
+                        <p>(12)-345-67-89</p>
+                    </li>
+                    <li>
+                        <h2>ADDRES</h2>
+                        <p>234 St, New City</p>
+                    </li>
+                    <li>
+                        <h2>COUNTRY</h2>
+                        <p>Ukraine</p>
+                    </li>
+                </ul>
+            </div>
+
+        </article>
+
+        <article class="article-3" id="article-3">
+
+            <div class="third-left-side-box">
+
+                <div class="grey-oval"></div>
+                <div class="flex-center">
+                    <div class="orange-helmet"></div>
+                    <h1>Education <strong>Time</strong></h1>
+                </div>
+
+            </div>
+            <div class="third-right-side-box">
+
+                <div class="border-left">
+                    <div class="content-box">
+                    <div class="circle-point"></div>
+                    <div class="upper-part-box">
+                        <h1>1995 - 2000<br>High School</h1>
+                    </div>
+                    <div>
+                        <p>
+                            Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.<br>
+                            Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-box">
+                    <div class="circle-point"></div>
+                    <div class="upper-part-box">
+                        <h1>1995 - 2000<br>High School</h1>
+                    </div>
+                    <div>
+                        <p>
+                            Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.<br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-box">
+                    <div class="circle-point"></div>
+                    <div class="upper-part-box">
+                        <h1>1995 - 2000<br>High School</h1>
+                    </div>
+                    <div>
+                        <p>
+                            Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.<br>
+                        </p>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+
+        </article>
+
+        <article class="article-4" id="article-4">
+            <div class="forth-left-side-box">
+
+                <div class="grey-oval"></div>
+                <div class="flex-center">
+                    <div class="orange-helmet"></div>
+                    <h1>Abilities & <strong>Skills</strong></h1>
+                </div>
+
+            </div>
+
+            <div class="forth-right-side-box">
+                
+                <div class="content-box">
+                    <h1>Hard <strong>Skills</strong></h1>
+                    <div class="content-data">
+
+                        <div>
+                            <h2>Leadership</h2>
+                            <div class="bar">
+                                <div class="black-fillness-90"></div>
+                                <div class="procent-txt">90%</div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h2>Communications</h2>
+                            <div class="bar">
+                                <div class="black-fillness-60"></div>
+                                <div class="procent-txt">60%</div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h2>Collaborative</h2>
+                            <div class="bar">
+                                <div class="black-fillness-80"></div>
+                                <div class="procent-txt">80%</div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h2>Organization</h2>
+                            <div class="bar">
+                                <div class="black-fillness-70"></div>
+                                <div class="procent-txt">70%</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="content-box">
+                    <h1>Soft <strong>Skills</strong></h1>
+                    <div class="content-data">
+
+                        <div>
+                            <h2>German</h2>
+                            <div class="bar">
+                                <div class="black-fillness-90"></div>
+                                <div class="procent-txt">90%</div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h2>French</h2>
+                            <div class="bar">
+                                <div class="black-fillness-60"></div>
+                                <div class="procent-txt">60%</div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h2>Spanish</h2>
+                            <div class="bar">
+                                <div class="black-fillness-80"></div>
+                                <div class="procent-txt">80%</div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h2>Programing</h2>
+                            <div class="bar">
+                                <div class="black-fillness-70"></div>
+                                <div class="procent-txt">70%</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+        </article>
+
+        <article class="article-5" id="article-5">
+            <div class="fifth-left-side-box">
+
+                <div class="grey-oval"></div>
+                <div class="flex-center">
+                    <div class="orange-helmet"></div>
+                    <h1>I was <strong>there</strong></h1>
+                </div>
+
+            </div>
+
+            <div class="fifth-right-side-box">
+
+                <details>
+                    <summary>2005: Acme Bld</summary>
+                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                </details>
+
+                <details>
+                    <summary>2008: Distillery Acme</summary>
+                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                </details>
+
+                <details>
+                    <summary>2010: Acme Roads</summary>
+                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                </details>
+
+                <details>
+                    <summary>2020:Acme & Acme</summary>
+                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                </details>
+
+            </div>
+
+        </article>
+
+        <article class="article-6" id="article-6">
+
+            <div class="sixth-box">
+
+                <div class="sixth-box-header">
+
+                    <div>
+                        <div class="grey-oval"></div>
+                        <div class="flex-center">
+                            <div class="orange-helmet"></div>
+                            <h1>What they <strong>say</strong></h1>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="main-contant-container">
+                    <div class="column">
+                        <div class="content-box">
+                            <div class="content-data">
+                                <p>Non odio maximus, eget ultrices mauris rutrum. Phasellus non diam in neque interdum gravida.</p>
+                            </div>
+                            <img src="images/testimonials1.jpg" alt="">
+                            <h1>Mark Doe</h1>
+                            <h2>Ceo Google</h2>
+                        </div>
+
+                        <div class="content-box">
+                            <div class="content-data">
+                                <p>Non odio maximus, eget ultrices mauris rutrum. Phasellus non diam in neque interdum gravida.</p>
+                            </div>
+                            <img src="images/testimonials2.jpg" alt="">
+                            <h1>Mark Doe</h1>
+                            <h2>Ceo Google</h2>
+                        </div>
+
+                    </div>
+
+                    <div class="column">
+                        <div class="content-box">
+                            <div class="content-data">
+                                <p>
+                                    Non odio maximus, eget ultrices mauris rutrum. Phasellus non diam in neque interdum gravida.<br><br>
+                                    Non odio maximus, eget ultrices mauris rutrum. Phasellus non diam in neque interdum gravida.
+                                </p>
+                            </div>
+                            <img src="images/testimonials3.jpg" alt="">
+                            <h1>Mark Doe</h1>
+                            <h2>Ceo Google</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="column">
+                        <div class="content-box">
+                            <div class="content-data">
+                                <p>Non odio maximus, eget ultrices mauris rutrum. Phasellus non diam in neque interdum gravida.</p>
+                            </div>
+                            <img src="images/testimonials4.jpg" alt="">
+                            <h1>Mark Doe</h1>
+                            <h2>Ceo Google</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+            
+        </article>
+
+        <article class="article-7" id="article-7">
+
+            <div class="seventh-box">
+
+                <div class="grey-oval"></div>
+
+                <div class="content-box-1">
+
+                    <h1>Don’t hesitate:<br>
+                        contact me!</h1>
+                    <ul>
+                        <li>
+                            <div>📍</div>
+                            124 Street<br>
+                            In a city<br>
+                            8945 My Country
+                        </li>
+                        <li>
+                            <div>💬</div>
+                            mymail@mail.com
+                        </li>
+                        <li>
+                            <div>📞</div>
+                            (234)555-55-55-555
+                        </li>
+                        <li>
+                            <div>🇸</div>
+                            myskype
+                        </li>
+                    </ul>
+                    <h2>Check my social net!</h2>
+                    <div class="medias"><a href="">ⓕ</a> <a href="">𝕏</a> <a href="">ⓕ</a></div>
+
+                </div>
+
+                <div class="content-box-2">
+
+                    <div class="content">
+                        
+                        <h1>Get in <i>touch</i></h1>
+
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+
+                        <p>Please enter a correct email address.</p>
+
+                        <textarea placeholder="Message" name="" id=""></textarea>
+
+                        <button>Contact <i>Me</i></button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </main>
+
+</body>
+</html>
