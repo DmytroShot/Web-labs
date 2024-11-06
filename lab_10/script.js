@@ -1,5 +1,9 @@
 let container = document.getElementById("container")
-let conteiner_count = prompt("Count of containers");
+while(true){
+    conteiner_count = prompt("Count of containers");
+    if(conteiner_count%2!=0){alert("num must be even !")}
+    else{break}
+}
 let fruits = ["mango","mango","grape","grape","granate","granate"];
 
 if(conteiner_count>fruits.length){
