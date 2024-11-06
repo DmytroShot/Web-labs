@@ -1,0 +1,21 @@
+body{
+    background: yellow;
+}
+.data-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.card-box{
+    background: wheat;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    h1{
+        font-size: 24px;
+    }
+    img{
+        width: 100%;
+    }
+}

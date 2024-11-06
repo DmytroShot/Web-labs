@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    main{
+        background: rgb(221, 213, 213);
+        width: 500px;
+        height: 300px;
+        padding: 10px;
+        
+
+        
+        .content-box:hover{
+            background-color: rgb(190, 187, 187);
+        }
+        img{
+            width: 25px;
+        }
+        .img2{
+            width: 25px;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        h1{
+            margin: 0;
+            font-size: 24px;
+            position: absolute;
+            top: 0;
+            left: 30px;
+        }
+        ul{
+            list-style-type: none;
+            display: none;
+            margin-bottom: 20px;
+        }
+        .content-box{
+            position: relative;
+            margin-bottom: 10px;
+        }
+    }
+}
+
