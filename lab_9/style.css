@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: green;
+}
+.grid-container{
+    
+    display: grid;
+    
+    gap: 20px;
+    grid-template-columns: repeat(5,140px);
+    grid-template-rows: repeat(5,140px);
+}
+.card{
+    background: #753010;
+    border: wheat solid 1px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    img{
+        transition: 1s;
+        width: 100px;
+        height: 100px;
+        
+    }
+}
+.point{
+    opacity: 100 !important;
+}
+.open{
+    opacity: 100 !important;
+}
+.closed{
+    opacity: 0 ;
+}

@@ -1,38 +1,25 @@
 body{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: green;
 }
-.grid-container{
-    
-    display: grid;
-    
-    gap: 20px;
-    grid-template-columns: repeat(5,140px);
-    grid-template-rows: repeat(5,140px);
-}
-.card{
-    background: #753010;
-    border: wheat solid 1px ;
+.container{
     display: flex;
+    gap: 20px;
+}
+.tank{
+    background: wheat;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: 1s;
     img{
-        transition: 1s;
-        width: 100px;
-        height: 100px;
-        
+        padding: 10px;
+        width: 80%;
+        height: 80%;
     }
-}
-.point{
-    opacity: 100 !important;
-}
-.open{
-    opacity: 100 !important;
-}
-.closed{
-    opacity: 0 ;
+    h1{
+        color: rgb(43, 32, 32);
+        margin: 0;
+    }
 }
