@@ -12,3 +12,15 @@ https://dmytroshot.github.io/Web-labs/lab_04/museum/
 https://dmytroshot.github.io/Web-labs/lab_05/resume/
 
 https://dmytroshot.github.io/Web-labs/lab_06/
+
+https://dmytroshot.github.io/Web-labs/lab_07/
+
+https://dmytroshot.github.io/Web-labs/lab_08/
+
+https://dmytroshot.github.io/Web-labs/lab_09/
+
+https://dmytroshot.github.io/Web-labs/lab_10/
+
+https://dmytroshot.github.io/Web-labs/lab_11/
+
+https://dmytroshot.github.io/Web-labs/lab_12/
