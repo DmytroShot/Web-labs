@@ -20,7 +20,7 @@ body{
     img{
         padding: 10px;
         width: 80%;
-        height: 80%;
+        min-height: 80%;
     }
     h1{
         color: rgb(43, 32, 32);
