@@ -5,6 +5,10 @@ body{
     display: flex;
     gap: 20px;
 }
+.info-container{
+    display: flex;
+    justify-content: center;
+}
 .tank{
     background: wheat;
     width: 300px;
