@@ -24,3 +24,5 @@ https://dmytroshot.github.io/Web-labs/lab_10/ - tanks
 https://dmytroshot.github.io/Web-labs/lab_11/ - jobs filters
 
 https://dmytroshot.github.io/Web-labs/lab_12/ - pokemons
+
+https://dmytroshot.github.io/Web-labs/lab_13/ - dummyjson
