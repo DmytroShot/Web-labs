@@ -130,10 +130,10 @@ async function get_and_show_user(){
 }
 
 
-if(window.location.pathname=="/lab_13/index.html"){
+if(window.location.pathname.split("/")[window.location.pathname.split("/").length-1]=="index.html"){
     show_users()
 }
-if(window.location.pathname=="/lab_13/account-index.html"){
+if(window.location.pathname.split("/")[window.location.pathname.split("/").length-1]=="account-index.html"){
     get_and_show_user()
 }
 
