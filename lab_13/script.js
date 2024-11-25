@@ -12,8 +12,10 @@ function show_menu(){
 
 
     img.id="menu_img";
-    img.src=localStorage.getItem("img_src")
-
+    if(localStorage.getItem("img_src")){
+        img.src=localStorage.getItem("img_src")
+    }
+    
     if(localStorage.getItem("img_display")=="block"){
         img.style.display="block"
     }
