@@ -81,7 +81,7 @@ class map{
             my_map.show_map();
             
                 
-        }, 1000);
+        }, 800);
             
         
     }
