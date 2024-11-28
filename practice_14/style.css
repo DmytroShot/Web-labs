@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    padding: 5px;
+    border: green solid 1px;
+    height: 80%;
+    width: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    .row{
+        width: 100%;
+        display: flex;
+        gap: 5px;
+    }
+    .cube{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+.pointed{
+    background: black;
+}
