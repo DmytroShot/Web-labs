@@ -28,3 +28,5 @@ https://dmytroshot.github.io/Web-labs/lab_12/ - pokemons
 https://dmytroshot.github.io/Web-labs/lab_13/index.html - dummyjson
 
 https://dmytroshot.github.io/Web-labs/practice_14/ - snake
+
+https://dmytroshot.github.io/Web-labs/react_15/ - react-pokemons
