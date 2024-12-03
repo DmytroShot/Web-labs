@@ -1,0 +1,25 @@
+body{
+  background: yellow;
+}
+.root{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card{
+  width: 300px;
+  text-align: center;
+  background: wheat;
+  border: solid black 1px;
+
+  img{
+    width: 40%;
+  }
+  p{
+    div{
+      margin: 10px;
+    }
+  }
+}
+
